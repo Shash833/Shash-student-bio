@@ -1,8 +1,62 @@
-.body {
-    background-color:#d4c237;
+header {
+    background-color: #333333;
+}
+body {
+    background-color:#efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: rgba(218, 20, 20, 0.2);
+    color: #333333;
     margin: 0;
     padding: 0;
+}
+h1 {
+    color: #eee;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
 
+}
+
+h2{
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+ul{ 
+    font-size: 16px;
+    line-height: 24px;
+}
+#container {
+    width: 1024px;
+    margin: 0 auto;
+}
+ #main-bio {
+     float: left;
+     width: 65%;
+     padding-left: 5%;
+       
+ }
+
+#bio-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 2.5%;
+
+}
+
+ #contact-info {
+     float: left;
+     width: 25%;
+     padding-right: 5%;
+ }
+
+#link {
+    color: #d21034;
 }
